@@ -29,7 +29,7 @@ public class MemberServiceTest {
         MemberFormDto memberFormDto = new MemberFormDto();
         memberFormDto.setEmail("test@email.com");
         memberFormDto.setName("홍길동");
-        memberFormDto.setAddress("대전 서구 가장동");
+        memberFormDto.setAddress("대전 서구 괴정동");
         memberFormDto.setPassword("1234");
         return Member.createMember(memberFormDto, passwordEncoder);
     }
